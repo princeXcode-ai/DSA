@@ -1,7 +1,7 @@
 public class Return_type{
     public static int park() {
         System.out.println("prince");
-        System.out.println("palak");
+        System.out.println("prakash");
         return 17;
         
     }
