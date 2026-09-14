@@ -19,6 +19,6 @@ public class ElementSum {
             
         }
         System.out.println("Sum of elements is "+p);
-        
+            
     }
 }
