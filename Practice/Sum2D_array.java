@@ -3,33 +3,30 @@ import java.util.Scanner;
 
 public class Sum2D_array{
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System .in);
-        int[] arr={0,1,1,1,0,0};
-        int numofZero =0 ;
-        int numofOne = 0;
+        Scanner sc = new Scanner(System.in);
+        int [][] arr = new int [10] [10];
+        System.out.print("Enter row : ");
+        int r = sc.nextInt();
+        System.out.print("Enter column : ");
+        int c = sc.nextInt();
+
+        System.out.print("Enter elements of arr: ");
+
+        for(int i=0; i<r;i++){
+            for(int j=0;j<c;j++){
+                arr[i][j] = sc.nextInt();
+            }
+
+        }
+        for(int i=0; i<r;i++){
+            for(int j=0;j<c;j++){
+                System.out.print(arr[i][j]+" ");
+            }
+
+            System.out.println();
+
+        }
         
-        for(int ele : arr){
-            if (ele ==0) numofZero +=1;
-            else numofOne +=1;
-        }
-        int[] arr1 = new int [numofZero];
-        for(int i=0; i<numofZero; i++){
-            arr1[i]=0;
-        }
-        int[] arr2 = new int [numofOne];
-        for(int i=0; i<numofOne; i++){
-            arr2[i]=1;
-        }
-
-        for(int ele: arr1){
-            System.out.print(ele);
-        }
-        for(int ele: arr2){
-            System.out.print(ele);
-        }
-
-        
-
     }
 
 }
