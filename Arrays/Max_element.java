@@ -13,3 +13,10 @@ public class Max_element{
         System.out.println(max);
     }
 }
+// int p = arr[0];
+        
+//         for(int i = 1; i<arr.length; i++){
+//             if(p<arr[i]){
+//                 p = arr[i];
+//             }
+//         }
