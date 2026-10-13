@@ -24,6 +24,24 @@ public class BasicArrayList{
             System.out.print(ele+" ");
         }
 
-        
+        arr.add(78);
+        arr.add(1,100);
+        arr.remove(3); 
+        arr.remove(arr.size()-1);
+        //Collections.reverse(arr);
+
+        int i =0 , j = arr.size()-1;
+        while(i<j){
+            int temp = arr.get(i);
+            arr.set(i,arr.get(j));
+            arr.set(j,temp);
+            i++;
+            j--;
+        }
+        System.out.print(arr);
+
+        ArrayList<Character> arr2 = new ArrayList<>();
+        ArrayList<Double> arr3 = new ArrayList<>();
+        ArrayList<String> arr4 = new ArrayList<>();
     } 
 }
