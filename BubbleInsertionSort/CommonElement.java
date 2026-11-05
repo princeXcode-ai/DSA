@@ -20,9 +20,9 @@ public class CommonElement {
                 j++;
             }
             else if(a[i]< b[i]) i++;
-            else if(a[i]>b[i]) j++;
+            else j++;
         }
-        for(int p = 0; p <=5; p++){
+        for(int p = 0; p < ans.size(); p++){
             System.out.print(ans.get(p)+" ");
         }
 
