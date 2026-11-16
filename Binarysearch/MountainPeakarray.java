@@ -7,7 +7,7 @@ public class MountainPeakarray {
         while(lo<=hi){
             int mid = (lo+hi)/2;
 
-            if(arr[mid])
+            if(arr[mid]<arr[mid+1])
         }
     }
 }
